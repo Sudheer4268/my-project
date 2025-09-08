@@ -65,10 +65,10 @@ a{
 .btn{
     display: inline-block;
     padding: 10px 30px;
-    background-color: chartreuse;
-    border: 2px solid rgb(141, 112, 129);
+    background-color: rgb(125, 163, 87);
+    border: 2px solid rgb(102, 141, 51);
     border-radius: 40px;
-    box-shadow: 0 0 10px blue;
+    box-shadow: 0 0 10px rgb(51, 124, 57);
     font-size: 16px;
     color: #f1ebeb;
     font-weight: 500;
@@ -88,7 +88,7 @@ a{
     border: 2px solid rgb(35, 46, 35);
     border-radius: 50px;
     font-size: 20px;
-    color: chartreuse;
+    color: rgb(96, 122, 70);
     margin: 0 8px;
     transition: 0.5s;
 }
@@ -133,6 +133,11 @@ a{
     width: 85%;
     object-fit: cover;
     mix-blend-mode: lighten;
+}
+.place{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* .bars-animation{
     position: absolute;

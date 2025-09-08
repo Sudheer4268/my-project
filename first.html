@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("assets/images/coffee1.webp");
+            background-repeat: no-repeat;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 20px;
+            width: 100%;
+            background-position: center;
+            background-size: auto;
+            background-attachment: fixed;
+        }
+
+        .menu {
+            width: 80%;
+            background-color: rgb(173, 143, 96);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            max-width: 500px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .extra {
+            font-style: italic;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
+
+        h1,
+        h2, p {
+            text-align: center;
+
+        }
+
+        hr {
+            border: 2px solid grey;
+            font-family: Impact, serif;
+        }
+
+        .item p {
+            display: inline-block;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        .flavor, .dessert {
+            text-align: left;
+            width: 75%;
+        }
+        .price {
+            text-align: right;
+            width: 90%;
+        }
+        footer{
+            font-size: 14px;
+        }
+        .address{
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+        a{
+            color: black;
+            transition: 0.5s;
+            display: flex;
+            text-align: center;
+            margin-left: 40% ;
+        }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            color: brown;
+        }
+        a :active{
+            color: brown;
+        }
+        .drive{
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <main>
+            <h1>CAMPER CAFE</h1>
+            <P class="extra">Est. 2025</P>
+            <hr>
+            <section>
+                <h2>Coffee</h2>
+                <img src="" alt="">
+                <article class="item">
+                    <p class="flavor">French Vanilla</p>
+                    <p class="price">5.00</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Caramel Macchiato</p>
+                    <p class="price">6.00</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Pumpkin Spice</p>
+                    <p class="price">5.25</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Hazelnut</p>
+                    <p class="price">6.75</p>
+                </article>
+                <article class="item">
+                    <p class="flavor">Mocha</p>
+                    <p class="price">4.50</p>
+                </article>
+                <section>
+                    <article class="item">
+                        <h2>Desserts</h2>
+                        <img src="" alt="">
+                        <p class="dessert">Donut</p>
+                        <p class="price">1.40</p>
+                    </article>
+                    <article class="item">
+                        <p class="dessert">Cherry Pie</p>
+                        <p class="price">2.00</p>
+                    </article>
+                    <article class="item">
+                        <p class="dessert">Cheesecake</p>
+                        <p class="price">2.25</p>
+                    </article>
+                    <article class="item">
+                        <p class="dessert">Cinnamon Roll</p>
+                        <p class="price">3.00</p>
+                    </article>
+                </section>
+
+            </section>
+
+        </main>
+        <hr class="bottom">
+        <div class="address">
+            <footer>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Visit our Website</a>
+                <p class="drive">123 Free Code Camp Drive</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
